@@ -111,3 +111,5 @@ function sendJSON($infos){
     header("Content-Type: application/json");
     echo json_encode($infos,JSON_UNESCAPED_UNICODE);
 }
+
+//{*Uu7*cYw5HeA>qj dbpassword

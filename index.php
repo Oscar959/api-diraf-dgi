@@ -60,7 +60,7 @@ try {
                 throw new Exception("<div class='text-danger text-center m-10'>Arrange please your url, and retry again</div>");
         }
     } else {
-        include("header.php");
+        //include("header.php");
         throw new Exception("<div class='text-danger text-center m-10'>We a have a problem when we try to get data, retry please</div>");
     }
 } catch (Exception $e) {
